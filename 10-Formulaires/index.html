@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- FORMULAIRE  -->
+<form action="" method="">
+    <label for="nom">Nom</label>
+    <!-- Label permet de labeliser un input -->
+
+    <input id="nom" type="text" placeholder="Indiquez votre nom">
+    <!-- Il est très important pour le SEO de bien lier un label et son input -->
+    <!-- Il existe de nombreux attributs -->
+    <br><br>
+
+    <label for="prenom">Prénom</label>
+    <input id="prenom" type="text" placeholder="Indiquez votre prénom">
+    <br><br>
+
+    <!-- Il existe plusieurs type d'input comme mail, date etc... -->
+    <label for="mail">Mail</label>
+    <input id="mail" type="mail" placeholder="Indiquez votre mail">
+    <br><br>
+
+    <label for="dateNaissance">Date de naissance</label>
+    <input id="dateNaissance" type="date" placeholder="Indiquez votre date de naissance">
+    <br><br>
+
+    <label for="message">Message</label>
+    <br><br>
+
+    <!-- Les input marchent pour 1 seule ligne donc utilisation de "textarea" pour un long paragaphe -->
+    <textarea name="" id="message"></textarea>
+    <!-- name est un attribut qui sert à envoyer le libellé au backend -->
+    <br>
+    
+    <button type="submit">Envoyer le message</button>
+    <!-- Vu que le boutton est dans un bloc form, il n'y a pas de préciser le type -->
+</form>
+</body>
+</html>
