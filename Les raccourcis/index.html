@@ -14,3 +14,79 @@ Lorem + Nombre pour spécifier le nombre de mots
 Ex: lorem10 = Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, corporis!
 
 cliquer dans une zone + ALT relaché permet d'écrire sur plusieurs lignes
+
+<!-- {rajouter un titre} -->
+h1{je suis un titre} = <h1>je suis un titre</h1>
+
+<!-- imbrication > -->
+div>ul>li>a+a
+
+<div>
+    <ul>
+        <li><a href=""></a>
+            <a href=""></a>
+        </li>
+    </ul>
+</div>
+
+<!-- * = multiplier un élément -->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<!-- $ = indexer -->
+ul>li.item.item$*5
+
+<ul>
+    <li class="item item1"></li>
+    <li class="item item2"></li>
+    <li class="item item3"></li>
+    <li class="item item4"></li>
+    <li class="item item5"></li>
+</ul>
+
+<!-- ^ monter d'un étage -->
+
+<ul>
+    <li></li>
+</ul>
+<p></p>
+
+
+<!-- () créer un groupe d'éléments -->
+section>(header>div>ul>li*2)+footer>p{je suis un titre}
+
+<section>
+    <header>
+        <div>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </header>
+    <footer>
+        <p>je suis un titre</p>
+    </footer>
+</section>
+
+<!-- [] attribuer les attributs directement -->
+a[href="https.//google.fr" target="_blank" title="google"]
+
+
+<!-- formulaires -->
+form:get 
+<form action="" method="get"></form>
+input:date 
+<input type="date" name="" id="">
+
+
+<!-- trouver les occurences -->
+ctrl + d 
+
+<!-- changer la ligne -->
+alt + flèche
+
